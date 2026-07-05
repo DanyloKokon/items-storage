@@ -10,9 +10,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/account/singup" element={<SingUp/>}/>
-        <Route path="/account/login" element={<Login/>}/>
+        <Route path="/items-storage/" element={<Home/>}/>
+        <Route path="/items-storage/account/singup" element={<SingUp/>}/>
+        <Route path="/items-storage/account/login" element={<Login/>}/>
       </Routes>
     </BrowserRouter>
   );
