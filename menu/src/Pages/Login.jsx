@@ -61,7 +61,7 @@ function Login() {
                     </button>
                 </form>
                 <p className="signin-link">
-                    Don't have an account? <a href="/account/singup">Sign Up Here</a>
+                    Don't have an account? <a href="/items-storage/account/singup">Sign Up Here</a>
                 </p>
             </div>
         </div>

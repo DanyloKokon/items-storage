@@ -34,8 +34,8 @@ function Home() {
                     </div>
                 ) : (
                     <div className="auth-buttons">
-                        <Link to="/account/login" className="signup-btn">Login</Link>
-                        <Link to="/account/singup" className="signup-btn">Sign Up</Link>
+                        <Link to="/items-storage/account/login" className="signup-btn">Login</Link>
+                        <Link to="/items-storage/account/singup" className="signup-btn">Sign Up</Link>
                     </div>
                 )}
             </div>
