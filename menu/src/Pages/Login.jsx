@@ -20,7 +20,7 @@ function Login() {
                 .unwrap()
                 .then((user) => {
                     dispatch(setUser(user));
-                    navigate('/');
+                    navigate('/items-storage/');
                 })
                 .catch((err) => {
                     setErrorMsg(err.message || 'Login failed. Please check your credentials.');

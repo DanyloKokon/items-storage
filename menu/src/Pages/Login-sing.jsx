@@ -20,7 +20,7 @@ function SingUp() {
             setEmail('');
             setUserPassword('');
             // Navigate back to home after signup
-            navigate('/');
+            navigate('/items-storage/');
         }
     };
 
