@@ -5,7 +5,10 @@ function Cart() {
     const dispatch = useDispatch();
     const { items } = useSelector((state) => state.contacts);
     const cartItems = items.filter((item) => item.cart);
-    const total = cartItems.reduce((sum, item) => sum + Number(item.price || 0), 0);
+    const summary = (am, pr) => {
+        return Number(am) * Number(pr)
+    }
+    const total = cartItems.reduce((sum, item) => sum + summary(item.Ammount, item.price), 0);
 
     return (
         <div className="cart-container">
