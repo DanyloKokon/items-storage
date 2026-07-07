@@ -26,7 +26,9 @@
 /* Header Bar */
 .header-bar {
   width: 100%;
-  padding: 16px 20px;
+  /* padding: 16px 20px; */
+  padding-top: 16px;
+  padding-bottom: 16px;
   background: linear-gradient(135deg, var(--accent-bg), rgba(170, 59, 255, 0.05));
   border-bottom: 2px solid var(--accent-border);
   display: flex;
