@@ -121,7 +121,7 @@ const accountSlice = createSlice({
         state.users = action.payload.map((user) => ({
           ...user,
           id: Number(user.id),
-          op: false
+          op: true
         }));
       })
     .addCase(fetchAccounts.rejected, (state, action) => {
